@@ -56,6 +56,42 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+.site_header{
+    position: relative;
+    height: 75px;
+    width: 55%;
+    margin: auto;
+    display: flex;
+    padding: 1%;
+}
+
+.site_header img{
+    height: auto;
+    width: 20%;
+}
+
+.site_header-nav{
+    position: relative;
+    height: auto;
+    width: 79%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.site_header-nav-link{
+    font-size: 14px;
+    font-family: Arial;
+    color: black;
+    text-decoration: none;
+}
+
+.img-container{
+    height: 150px;
+    width: 55%;
+    margin: 2% auto;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
