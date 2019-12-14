@@ -85,6 +85,8 @@ html, body {
     font-family: Arial;
     color: black;
     text-decoration: none;
+    display: inline-block;
+    padding: 2%;
 }
 
 .img-container{
@@ -105,7 +107,7 @@ p {
 
 .container {
     width: 800px;
-    margin: 0 auto;
+    margin: 0 22.5%;
 }
 
 .top-content {
@@ -220,4 +222,91 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Page CSS */
+
+.about-main{
+    margin: auto;
+    padding: 0 2.5% 2.5% 2.5%;
+    width: 100%;
+    border-bottom: 1px dashed black;
+}
+
+.section-container{
+    position: relative;
+    height: 100%;
+    width: 835.5px;
+    padding: 0 2.5%;
+    margin: 2.5% auto 0;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.section-container .section-header{
+    margin-top: 2%;
+}
+
+.section-container .section-header1{
+    margin-top: 0;
+}
+
+.section-1, .section-2, .section-3, .section-4{
+    height: 25%;
+    width: 46.5%;   
+}
+
+.section-1 img, .section-2 img{
+    margin: 2% 0;
+}
+
+.section-1, .section-3{
+    margin-right: 3.5%;
+}
+
+.section-3, .section-4{
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    margin-top: 3%;
+    padding: 7.5% 0 3% 0;
+}
+
+.section-1 .section-link, .section-2 .section-link, .section-3 .section-link, .section-4 .section-link{
+    height: 40px;
+    width: 125px;
+    display: block;
+    border: 2px solid black;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin-top: 5%;
+    
+}
+
+.bottom-section{
+    padding: 5%;
+}
+
+a:hover{
+    animation: grow 2s linear;
+}
+
+@keyframes grow{
+    25%{
+        font-size: 18px;
+    }
+
+    50%{
+        font-size: 22px;
+    }
+
+    75%{
+        font-size: 20px;
+    }
+
+    100%{
+        font-size: 18px;
+    }
 }
