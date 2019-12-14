@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    I would say that the HTML that you use should provide meaning to not only people who view your website on their computer, but also to the developers and computers alike.  The computer and developers need to know what each part of your HTML is meant for, such as using section or article instead of a div.  Sections are for parts of your website that are specific to your site, and articles are for those parts that can be placed in just about any site by itself.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Block elements can be scaled by height and width, and they also create a line-break.  Inline elements do not do either of those.
 
 3. What are the 4 areas of the box model?
 
+1) Content
+2) Padding
+3) Border
+4) Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The cross-axis, or in other words the axis that goes perpendicular to the content itself if it were boxes.  Such as if there are four boxes going vertically, it would be a horizontal line, otherwise it would be a vertical line.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is important and essential for a team of developers to not only be able to develop different features simultaneously, but be able to keep their current state of a website or app working as they are working on improving it.  Also, it helps to be able to scale back to a previous state if anything that were not useable such as a worse bug were to happen to crop up.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
